@@ -6,9 +6,9 @@ public class Main {
         
         int temp = sc.nextInt();
 
-        if (temp < 0){
+        if (temp < 0) {
             System.out.print("ice");
-        } else if (temp > 100) {
+        } else if (temp >= 100) {
             System.out.print("vapor");
         } else if ((temp > 0) && (temp < 100)) {
             System.out.print("water");
